@@ -1,0 +1,50 @@
+
+Objetivo atual: tokenizar para criar layouts e se adaptar a qualquer RI. 
+
+reconhecimento por bloco, e não por linha
+
+tokenização = entender cada
+
+-------------------------------------
+
+Nubank - texto é selecionável
+Itaú - texto é selecionável
+Santander - texto é selecionável
+Inter - texto é selecionável
+Banco do Brasil - texto é selecionável
+
+Caixa - não é selecionável
+
+---------------------------------------
+
+o que é parsing?
+transformar um texto todo bagunçado em um dataframe ( tabela não estruturada
+para uma tabela estruturada )
+Isso é um projeto de engenharia de dados
+
+o que é regex/re?
+descreve padrões de texto para criar dataframes por exemplo. É como se buscasse
+baseado em algo similar, como uma porcentagem
+
+    r'^(?P<label>Estágio\s+\d+)?\s*'
+Procure algo opcionalmente como estágio, nessa ordem de número. 
+
+regex é a regra, re, o motor. 
+funções de re
+
+re.search()   # procura um padrão
+re.match()    # procura no começo da string
+re.findall()  # retorna tudo que bate
+re.compile()  # prepara o padrão (mais rápido e limpo)
+
+parsing dá resultado ao que regex encontra
+
+--------------------------------------------
+
+software tem que ter uma validação dos dados extraídos
+
+LLM ( é um passo mais pra frente )
+diferencial é pegar o histórico
+
+acompanhar o site, ver quando tem atualização e, quando tiver atualização,
+atualizar automaticamente o código
