@@ -1,3 +1,51 @@
+O que eu preciso coletar, de cada banco:
+
+# adicionar em todos: uma célula inicial para mudar todos os parâmetros
+
+Itaú - 
+    Write off ( valor por estágios - PDF ) - obtido, mas precisa adaptar
+    %Spread ( guia nim )
+    Estoque de Ativos Renegociados ( apresentação )
+    els tem PE!
+
+Inter - 
+    PDD ( PDF ) - obtido
+    Write off - obtido, mas precisa adaptar
+    Estoque de Ativos Renegociados - guia de asset quality ( ppt? )
+    Percentual de Ativos Reestruturados
+    % Cobertura de estágios - obtido ( verificar )
+    Estágios - obtido
+    Total - obtido, mas precisa adaptar
+
+Nubank
+    Estágios - obtidos ( ver para emprestimos também )
+
+Caixa
+    Estágios - a ser desenvolvido
+    Write off - a ser desenvolvido
+    todo o resto
+
+    dev agora: caixa ( falta adaptar o código para conseguir pegar )
+        Pegar a imagem da memória dificulta um pouco o parsing, mas não é impossível
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Objetivo atual: tokenizar para criar layouts e se adaptar a qualquer RI. 
 
