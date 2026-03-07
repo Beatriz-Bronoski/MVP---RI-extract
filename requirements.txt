@@ -1,0 +1,9 @@
+# para extração de dados e organização de texto
+pandas
+pdfplumber
+re
+numpy
+
+# para OCR
+pytesseract
+Pillow
